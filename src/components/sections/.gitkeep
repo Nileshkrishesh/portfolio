@@ -1,0 +1,16 @@
+# Content sections to be implemented
+
+This directory will contain the main content sections:
+
+- Hero.tsx - Main hero section with introduction
+- About.tsx - About me section
+- Resume.tsx - Resume overview section
+- Skills.tsx - Skills and expertise showcase
+- Projects.tsx - Project portfolio grid
+- Experience.tsx - Work experience timeline
+- Education.tsx - Education history
+- Achievements.tsx - Awards and achievements
+- Certifications.tsx - Professional certifications
+- CompetitiveProgramming.tsx - Coding platform profiles
+- Research.tsx - Research papers and publications
+- Contact.tsx - Contact information and form
