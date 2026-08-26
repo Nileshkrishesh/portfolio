@@ -79,7 +79,7 @@ export function About({ bio, focusAreas, philosophy, sectionNumber = '01' }: Abo
             {philosophy && (
               <div className="border-l-2 border-accent pl-6 py-2">
                 <p className="text-lg italic text-text-secondary leading-relaxed">
-                  "{philosophy}"
+                  &ldquo;{philosophy}&rdquo;
                 </p>
               </div>
             )}

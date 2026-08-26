@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { ArrowRight, Mail } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { cn } from '@/lib/utils'
@@ -191,9 +192,12 @@ export function Hero({
               {/* Image */}
               <div className="relative rounded-[1.5rem] overflow-hidden border border-border bg-background-alt shadow-card">
                 {profileImage ? (
-                  <img
+                  <Image
                     src={profileImage}
                     alt={`${firstName} ${lastName} - ${role}`}
+                    width={400}
+                    height={533}
+                    priority
                     className="w-full h-auto max-w-md aspect-[3/4] object-cover"
                   />
                 ) : (

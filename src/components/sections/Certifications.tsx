@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { ExternalLink, Award } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { SectionHeading } from '@/components/ui/SectionHeading'
@@ -45,9 +46,11 @@ export function Certifications({ certifications, sectionNumber = '08' }: Certifi
                 {/* Image or Icon */}
                 <div className="w-full md:w-40 h-40 bg-accent-tint flex items-center justify-center flex-shrink-0 rounded-t-card md:rounded-l-card md:rounded-tr-none">
                   {cert.image ? (
-                    <img
+                    <Image
                       src={cert.image}
                       alt={cert.name}
+                      width={160}
+                      height={160}
                       className="w-full h-full object-contain p-4"
                     />
                   ) : (

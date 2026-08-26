@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 import { ExternalLink, Github } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Tag } from '@/components/ui/Tag'
@@ -55,8 +56,8 @@ export function Projects({ projects, sectionNumber = '04' }: ProjectsProps) {
                 whileHover={{
                   y: -4,
                   borderColor: 'rgba(189, 129, 117, 0.4)',
+                  transition: { duration: 0.3 },
                 }}
-                transition={{ duration: 0.3 }}
                 className={cn(
                   'card-base overflow-hidden',
                   'hover:shadow-card-hover transition-shadow duration-300',
@@ -84,12 +85,12 @@ export function Projects({ projects, sectionNumber = '04' }: ProjectsProps) {
                         !isEven && isFeatured && 'lg:order-2'
                       )}
                     >
-                      <motion.img
+                      <Image
                         src={project.image}
                         alt={project.title}
+                        width={600}
+                        height={400}
                         className="w-full h-full object-cover rounded-t-card lg:rounded-t-none lg:rounded-l-card"
-                        whileHover={{ scale: 1.03 }}
-                        transition={{ duration: 0.4 }}
                       />
                     </motion.div>
                   )}
