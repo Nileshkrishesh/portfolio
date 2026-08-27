@@ -408,12 +408,14 @@ export const certifications: Certification[] = [
     name: 'Certificate of Participation – Fast Line Follower, ADVITIYA\'26',
     issuer: 'IIT BHU',
     date: '2026',
+    credentialUrl: 'https://drive.google.com/file/d/16doTwTEHVt1zEl3h1so-uipPLiKYw5oY/view?usp=drive_link',
   },
   {
     id: 'advitiya-prismbreak',
     name: 'Certificate of Participation – Prism Break, ADVITIYA\'26',
     issuer: 'IIT BHU',
     date: '2026',
+    credentialUrl: 'https://drive.google.com/file/d/16doTwTEHVt1zEl3h1so-uipPLiKYw5oY/view?usp=drive_link',
   },
   {
     id: 'codecarvan-lpu',
