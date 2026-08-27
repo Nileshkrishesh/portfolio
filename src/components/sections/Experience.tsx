@@ -1,7 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { ExternalLink } from 'lucide-react'
 import { Tag } from '@/components/ui/Tag'
+import { Button } from '@/components/ui/Button'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import type { Experience } from '@/data/portfolio'
 import { formatDate, isCurrentRole } from '@/lib/utils'
@@ -111,6 +113,25 @@ export function Experience({ experiences, sectionNumber = '05' }: ExperienceProp
                           {tag}
                         </Tag>
                       ))}
+                    </div>
+                  )}
+
+                  {/* Offer Letter Link */}
+                  {exp.offerLetterUrl && (
+                    <div className="pt-4">
+                      <a
+                        href={exp.offerLetterUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button variant="outline" size="sm" className="group">
+                          <ExternalLink
+                            size={16}
+                            className="transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                          />
+                          View Offer Letter
+                        </Button>
+                      </a>
                     </div>
                   )}
                 </div>
