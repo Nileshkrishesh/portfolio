@@ -433,6 +433,7 @@ export const certifications: Certification[] = [
     issuer: 'IIT Madras, IIT Bombay, IIT Delhi, IIT Roorkee, IIT Kharagpur, IIT Varanasi, IIT Hyderabad',
     date: '2026',
     credentialId: 'Pan-IIT AI/ML Hackathon',
+    credentialUrl: 'https://drive.google.com/file/d/1milHjlCQJkPWC_g2MNUGXLghp_9j_WWd/view?usp=drive_link',
   },
   {
     id: 'thingqbator-embedded',
@@ -446,6 +447,7 @@ export const certifications: Certification[] = [
     name: 'Certificate of Excellence – Machine Learning and Image Processing',
     issuer: 'thingQbator (Nasscom Foundation)',
     date: '2025',
+    credentialUrl: 'https://drive.google.com/file/d/1Pwz6KfxmgQut1O54aLTGb3u6L5qeVhV7/view?usp=drive_link',
   },
   {
     id: 'indian-laws',
@@ -453,6 +455,7 @@ export const certifications: Certification[] = [
     issuer: 'Learning Foundation Online',
     date: '2025',
     credentialId: '25OCT25/LFO/LAW/A113',
+    credentialUrl: 'https://drive.google.com/file/d/1JqcChcIL_rnJujtf-GPdioLgoe3HX-ay/view?usp=drive_link',
   },
   {
     id: 'cybersmart-volunteer',
