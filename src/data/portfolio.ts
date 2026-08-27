@@ -413,7 +413,7 @@ export const certifications: Certification[] = [
   {
     id: 'advitiya-prismbreak',
     name: 'Certificate of Participation – Prism Break, ADVITIYA\'26',
-    issuer: 'IIT BHU',
+    issuer: 'IIT Ropar',
     date: '2026',
     credentialUrl: 'https://drive.google.com/file/d/1qNKWUlaA3bzsLG5MCYQpX9W8KK2yk_Qz/view?usp=drive_link',
   },
