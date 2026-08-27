@@ -489,14 +489,14 @@ export const certifications: Certification[] = [
     name: 'Participant – Global Consumer Intelligence Course 2025',
     issuer: 'University of Tokyo',
     date: '2025',
-    credentialUrl: 'https://www.linkedin.com/posts/nileshkrishesh_universityoftokyo-datascience-al-activity-7423983081830764544-jPmS',
+    credentialUrl: 'https://drive.google.com/file/d/1Y_bHOA76t4C6Nrm4b6a2KpucCi4SJZMI/view?usp=drive_link',
   },
   {
     id: 'dtu-hardware',
     name: 'Appreciation Certificate – North India Biggest Hardware Edition',
     issuer: 'Delhi Technological University (DTU)',
     date: '2025',
-    credentialUrl: 'https://www.linkedin.com/posts/nileshkrishesh_what-techstack-team-activity-7449713675009019904-s9PH',
+    credentialUrl: 'https://drive.google.com/file/d/1hhAOmQNpxfFCXZuX9MnfV_HKaBLrDGJW/view?usp=drive_link',
   },
 ]
 
