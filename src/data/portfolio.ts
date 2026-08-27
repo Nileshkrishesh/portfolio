@@ -455,7 +455,7 @@ export const certifications: Certification[] = [
     issuer: 'Learning Foundation Online',
     date: '2025',
     credentialId: '25OCT25/LFO/LAW/A113',
-    credentialUrl: 'https://drive.google.com/file/d/1JqcChcIL_rnJujtf-GPdioLgoe3HX-ay/view?usp=drive_link',
+    credentialUrl: 'https://drive.google.com/file/d/1Mggtii-he0bWeBzjLtlThLDHCPXXXfRj/view?usp=sharing',
   },
   {
     id: 'cybersmart-volunteer',
