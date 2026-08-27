@@ -179,7 +179,7 @@ export const stats: Stat[] = [
 export const heroStats: Stat[] = [
   { label: 'CGPA', value: 8.92, suffix: '/10' },
   { label: 'Projects', value: 4, suffix: '+' },
-  { label: 'Achievements', value: 4, suffix: '+' },
+  { label: 'Achievements', value: 5, suffix: '+' },
 ]
 
 export const skills: Skill[] = [
@@ -331,6 +331,14 @@ export const primaryUniversity = education[0]?.institution
 
 export const achievements: Achievement[] = [
   {
+    id: 'quantum-computing-iitg',
+    title: 'Certificate of Merit – Quantum Computing Summer Course (QC101)',
+    description: 'Successfully completed the Easy Track of QC101: Quantum Computing Summer Course organized by 4i Labs, IIT Guwahati. Ranked in the top 10% of participants and awarded Certificate of Merit for outstanding performance in track project evaluation.',
+    date: '2024',
+    category: 'Course',
+    icon: 'Award',
+  },
+  {
     id: 'semixthon-2026',
     title: '2nd Position – Human Device Interface Track, SemiXthon\'26',
     description: 'Secured 2nd place in the Human Device Interface track at SemiXthon\'26 hosted by Delhi Technological University (DTU), competing against top teams in hardware and IoT innovation.',
@@ -366,6 +374,13 @@ export const achievements: Achievement[] = [
 ]
 
 export const certifications: Certification[] = [
+  {
+    id: 'quantum-computing-iitg',
+    name: 'Certificate of Merit – QC101: Quantum Computing Summer Course (Easy Track)',
+    issuer: '4i Labs, IIT Guwahati',
+    date: '2024',
+    credentialId: 'Top 10% of participants',
+  },
   {
     id: 'oracle-ai-agent',
     name: 'Oracle Fusion AI Agent Studio Certified Foundations Associate – Rel 1',
