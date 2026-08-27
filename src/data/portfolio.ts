@@ -66,6 +66,7 @@ export interface Experience {
   description: string
   achievements?: string[]
   tags: string[]
+  offerLetterUrl?: string
 }
 
 export interface Education {
@@ -272,6 +273,7 @@ export const experiences: Experience[] = [
       'Contributing to research projects at the intersection of AI and robotics',
     ],
     tags: ['AI Research', 'Robotics', 'Machine Learning', 'Research', 'IIT Mandi'],
+    offerLetterUrl: 'https://drive.google.com/file/d/1a9TRbe1aksk89N7fZ_yIYogjE57Sx3U7/view?usp=drive_link',
   },
 ]
 
@@ -455,6 +457,7 @@ export const certifications: Certification[] = [
     name: 'CyberSmart Volunteer Certificate',
     issuer: 'WNS Cares & Cyber Smart',
     date: '2026',
+    credentialUrl: 'https://drive.google.com/file/d/1eiSfvuiW2Gioz9GN1Z_K06buwUVzqlbK/view?usp=drive_link',
   },
   {
     id: 'techmarathon-lpu',
