@@ -380,6 +380,7 @@ export const certifications: Certification[] = [
     issuer: '4i Labs, IIT Guwahati',
     date: '2024',
     credentialId: 'Top 10% of participants',
+    credentialUrl: 'https://lnkd.in/dKkPZxPM',
   },
   {
     id: 'oracle-ai-agent',
@@ -387,12 +388,14 @@ export const certifications: Certification[] = [
     issuer: 'Oracle',
     date: '2026',
     credentialId: 'Oracle Certified',
+    credentialUrl: 'https://www.linkedin.com/posts/nileshkrishesh_oraclecertified-oracleuniversity-ai-activity-7410727915547492352-u7Ep',
   },
   {
     id: 'qualcomm-ai',
     name: 'AI Upskilling Certificate – Technical Foundations',
     issuer: 'Qualcomm Academy',
     date: '2025',
+    credentialUrl: 'https://www.linkedin.com/posts/nileshkrishesh_qualcommacademy-aiupskilling-artificialintelligence-activity-7409511265234124800-1gTm',
   },
   {
     id: 'medha-iitb',
@@ -405,12 +408,14 @@ export const certifications: Certification[] = [
     name: 'Participant – Global Consumer Intelligence Course 2025',
     issuer: 'University of Tokyo',
     date: '2025',
+    credentialUrl: 'https://www.linkedin.com/posts/nileshkrishesh_universityoftokyo-datascience-al-activity-7423983081830764544-jPmS',
   },
   {
     id: 'dtu-hardware',
     name: 'Appreciation Certificate – North India Biggest Hardware Edition',
     issuer: 'Delhi Technological University (DTU)',
     date: '2025',
+    credentialUrl: 'https://www.linkedin.com/posts/nileshkrishesh_what-techstack-team-activity-7449713675009019904-s9PH',
   },
 ]
 
