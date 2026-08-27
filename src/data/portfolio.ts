@@ -380,7 +380,7 @@ export const certifications: Certification[] = [
     issuer: '4i Labs, IIT Guwahati',
     date: '2024',
     credentialId: 'Top 10% of participants',
-    credentialUrl: 'https://lnkd.in/dKkPZxPM',
+    credentialUrl: 'https://drive.google.com/file/d/1u-1DJ-0jRQe4uyM_5izHYq_wNJbPOswK/view?usp=drive_link',
   },
   {
     id: 'oracle-ai-agent',
@@ -406,7 +406,7 @@ export const certifications: Certification[] = [
   {
     id: 'advitiya-fastline',
     name: 'Certificate of Participation – Fast Line Follower, ADVITIYA\'26',
-    issuer: 'IIT BHU',
+    issuer: 'IIT Ropar',
     date: '2026',
     credentialUrl: 'https://drive.google.com/file/d/16doTwTEHVt1zEl3h1so-uipPLiKYw5oY/view?usp=drive_link',
   },
