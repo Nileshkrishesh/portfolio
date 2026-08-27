@@ -422,6 +422,7 @@ export const certifications: Certification[] = [
     name: 'Certificate of Participation – Code Carvan 3.0 Mentor Session',
     issuer: 'Coding Blocks, LPU',
     date: '2025',
+    credentialUrl: 'https://drive.google.com/file/d/1ljrtGFX_63JJkfCctw_v1qH3_SKOijwL/view?usp=drive_link',
   },
   {
     id: 'convolve-hackathon',
