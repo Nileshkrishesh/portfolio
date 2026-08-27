@@ -3,7 +3,7 @@
 import { motion } from 'framer-motion'
 import { Tag } from '@/components/ui/Tag'
 import { SectionHeading } from '@/components/ui/SectionHeading'
-import { Experience } from '@/data/portfolio'
+import type { Experience } from '@/data/portfolio'
 import { formatDate, isCurrentRole } from '@/lib/utils'
 
 interface ExperienceProps {

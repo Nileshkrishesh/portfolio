@@ -14,7 +14,7 @@ export function PageBackground() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false)
   const particlesRef = useRef<Particle[]>([])
-  const animationRef = useRef<number>()
+  const animationRef = useRef<number | undefined>(undefined)
 
   useEffect(() => {
     // Check for reduced motion preference
