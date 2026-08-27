@@ -433,7 +433,7 @@ export const certifications: Certification[] = [
     issuer: 'IIT Madras, IIT Bombay, IIT Delhi, IIT Roorkee, IIT Kharagpur, IIT Varanasi, IIT Hyderabad',
     date: '2026',
     credentialId: 'Pan-IIT AI/ML Hackathon',
-    credentialUrl: 'https://drive.google.com/file/d/1milHjlCQJkPWC_g2MNUGXLghp_9j_WWd/view?usp=drive_link',
+    credentialUrl: 'https://drive.google.com/file/d/1vB9RopMbCLOJkDelS-3zcISdmskLu7jg/view?usp=sharing',
   },
   {
     id: 'thingqbator-embedded',
