@@ -347,7 +347,7 @@ export const achievements: Achievement[] = [
     date: '2026',
     category: 'Hackathon',
     icon: 'Trophy',
-    url: 'https://lnkd.in/dg5R97Aa',
+    url: 'https://drive.google.com/file/d/1hhAOmQNpxfFCXZuX9MnfV_HKaBLrDGJW/view?usp=drive_link',
   },
   {
     id: 'lpu-gci-rank4',
@@ -390,20 +390,21 @@ export const certifications: Certification[] = [
     issuer: 'Oracle',
     date: '2026',
     credentialId: 'Oracle Certified',
-    credentialUrl: 'https://www.linkedin.com/posts/nileshkrishesh_oraclecertified-oracleuniversity-ai-activity-7410727915547492352-u7Ep',
+    credentialUrl: 'https://drive.google.com/file/d/18XYLP8WnmlFRW9Abf2HrEkLoPRSDcBiy/view?usp=drive_link',
   },
   {
     id: 'qualcomm-ai',
     name: 'AI Upskilling Certificate – Technical Foundations',
     issuer: 'Qualcomm Academy',
     date: '2025',
-    credentialUrl: 'https://www.linkedin.com/posts/nileshkrishesh_qualcommacademy-aiupskilling-artificialintelligence-activity-7409511265234124800-1gTm',
+    credentialUrl: 'https://drive.google.com/file/d/1MfLYRnPet8qID0tplkKujVPjiKVBvMKM/view?usp=drive_link',
   },
   {
     id: 'gci-utokyo-completion',
     name: 'Certificate of Completion – Global Consumer Intelligence Course 2025',
     issuer: 'University of Tokyo',
     date: '2025',
+    credentialUrl: 'https://drive.google.com/file/d/1Y_bHOA76t4C6Nrm4b6a2KpucCi4SJZMI/view?usp=drive_link',
   },
   {
     id: 'advitiya-fastline',
@@ -438,6 +439,7 @@ export const certifications: Certification[] = [
     name: 'Certificate of Excellence – An Introduction to Embedded Systems',
     issuer: 'thingQbator (Nasscom Foundation)',
     date: '2025',
+    credentialUrl: 'https://drive.google.com/file/d/1Sxi8jfqVEQUT-1GGMXnlEnwXtpmHGPv4/view?usp=drive_link',
   },
   {
     id: 'thingqbator-ml',
@@ -465,6 +467,13 @@ export const certifications: Certification[] = [
     issuer: 'School of Electronics and Electrical Engineering, LPU',
     date: '2025',
     credentialId: 'Certificate No. 418071',
+  },
+  {
+    id: 'robo-race',
+    name: 'Certificate of Participation – Robo Race',
+    issuer: 'LPU',
+    date: '2025',
+    credentialUrl: 'https://drive.google.com/file/d/19CM5G6--PY0u8aRI9nOWRWhhHJVCMawk/view?usp=drive_link',
   },
   {
     id: 'medha-iitb',
