@@ -45,9 +45,9 @@ export function PageBackground() {
 
       // Multiple flowing wave layers
       const waves = [
-        { amplitude: 40, frequency: 0.004, speed: 1, opacity: 0.06, offset: 0 },
-        { amplitude: 35, frequency: 0.005, speed: -0.8, opacity: 0.05, offset: canvas.height * 0.3 },
-        { amplitude: 30, frequency: 0.006, speed: 1.2, opacity: 0.04, offset: canvas.height * 0.6 },
+        { amplitude: 40, frequency: 0.004, speed: 1, opacity: 0.15, offset: 0 },
+        { amplitude: 35, frequency: 0.005, speed: -0.8, opacity: 0.12, offset: canvas.height * 0.3 },
+        { amplitude: 30, frequency: 0.006, speed: 1.2, opacity: 0.10, offset: canvas.height * 0.6 },
       ]
 
       waves.forEach((wave) => {
@@ -70,7 +70,7 @@ export function PageBackground() {
 
         const gradient = ctx.createLinearGradient(0, wave.offset, 0, canvas.height)
         gradient.addColorStop(0, `rgba(189, 129, 117, ${wave.opacity})`)
-        gradient.addColorStop(1, `rgba(229, 217, 201, 0)`)
+        gradient.addColorStop(1, `rgba(229, 217, 201, ${wave.opacity * 0.3})`)
         
         ctx.fillStyle = gradient
         ctx.fill()
@@ -84,7 +84,7 @@ export function PageBackground() {
         const radius = 20 + Math.sin(timeRef.current + i * 0.5) * 10
 
         const gradient = ctx.createRadialGradient(x, y, 0, x, y, radius * 2)
-        gradient.addColorStop(0, 'rgba(189, 129, 117, 0.15)')
+        gradient.addColorStop(0, 'rgba(189, 129, 117, 0.35)')
         gradient.addColorStop(1, 'rgba(189, 129, 117, 0)')
 
         ctx.fillStyle = gradient
@@ -93,7 +93,7 @@ export function PageBackground() {
         ctx.fill()
 
         // Inner circle
-        ctx.fillStyle = 'rgba(189, 129, 117, 0.08)'
+        ctx.fillStyle = 'rgba(189, 129, 117, 0.20)'
         ctx.beginPath()
         ctx.arc(x, y, radius, 0, Math.PI * 2)
         ctx.fill()
@@ -123,7 +123,7 @@ export function PageBackground() {
   return (
     <>
       {/* Static gradient overlay */}
-      <div className="fixed inset-0 -z-10 pointer-events-none bg-gradient-to-br from-background via-background to-background-alt opacity-40" />
+      <div className="fixed inset-0 -z-10 pointer-events-none bg-gradient-to-br from-background via-background to-background-alt opacity-60" />
       
       {/* Animated canvas */}
       <motion.canvas
