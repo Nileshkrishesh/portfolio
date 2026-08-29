@@ -284,8 +284,8 @@ export const education: Education[] = [
     degree: 'Bachelor of Technology',
     field: 'Computer Science Engineering (Robotics and AI)',
     location: 'Punjab, India',
-    startDate: '2024',
-    endDate: 'Present',
+    startDate: 'May 2025',
+    endDate: '2029',
     gpa: '8.92/10.0',
     achievements: [
       'CGPA: 8.92 (Current)',
