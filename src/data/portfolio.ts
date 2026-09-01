@@ -522,7 +522,7 @@ export const contactInfo: ContactInfo = {
 }
 
 // Resume configuration
-export const resumePath = '/resume/Latest CV(1).pdf' // Your CV is ready to download
+export const resumePath = '/resume/Nilesh CV.pdf' // Your CV is ready to download
 
 export const resumeHighlights: ResumeHighlight[] = [
   { label: 'CGPA', value: '8.92/10' },
